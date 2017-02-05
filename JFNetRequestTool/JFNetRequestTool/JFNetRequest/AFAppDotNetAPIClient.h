@@ -1,9 +1,9 @@
 //
 //  AFAppDotNetAPIClient.h
-//  PrivateDoctor
+//  JFNetRequestTool
 //
-//  Created by Bert on 16/7/25.
-//  Copyright © 2016年 guokang. All rights reserved.
+//  Created by JiangfanJFan on 16/7/25.
+//  Copyright © 2016年 JiangfanJFan. All rights reserved.
 //
 
 #import <AFNetworking/AFNetworking.h>
