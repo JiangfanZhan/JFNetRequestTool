@@ -7,15 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8BE5792C7DC8567426130E61 /* libPods-JFNetRequestTool.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B7F72109135C8F91949FF4B1 /* libPods-JFNetRequestTool.a */; };
+		F301467B1E46B3950015E903 /* AFAppDotNetAPIClient.m in Sources */ = {isa = PBXBuildFile; fileRef = F301467A1E46B3950015E903 /* AFAppDotNetAPIClient.m */; };
 		F31B24961E458626005E0B59 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F31B24951E458626005E0B59 /* main.m */; };
 		F31B24991E458626005E0B59 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F31B24981E458626005E0B59 /* AppDelegate.m */; };
 		F31B249C1E458626005E0B59 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F31B249B1E458626005E0B59 /* ViewController.m */; };
 		F31B249F1E458626005E0B59 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F31B249D1E458626005E0B59 /* Main.storyboard */; };
 		F31B24A11E458626005E0B59 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F31B24A01E458626005E0B59 /* Assets.xcassets */; };
 		F31B24A41E458626005E0B59 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F31B24A21E458626005E0B59 /* LaunchScreen.storyboard */; };
+		F31B24AE1E4588C7005E0B59 /* JFNetRequestTool.m in Sources */ = {isa = PBXBuildFile; fileRef = F31B24AD1E4588C7005E0B59 /* JFNetRequestTool.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1609BAE88390349E428B70F8 /* Pods-JFNetRequestTool.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JFNetRequestTool.release.xcconfig"; path = "Pods/Target Support Files/Pods-JFNetRequestTool/Pods-JFNetRequestTool.release.xcconfig"; sourceTree = "<group>"; };
+		89A588D0AC12B288A6D25363 /* Pods-JFNetRequestTool.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JFNetRequestTool.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JFNetRequestTool/Pods-JFNetRequestTool.debug.xcconfig"; sourceTree = "<group>"; };
+		B7F72109135C8F91949FF4B1 /* libPods-JFNetRequestTool.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JFNetRequestTool.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F30146791E46B3940015E903 /* AFAppDotNetAPIClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFAppDotNetAPIClient.h; sourceTree = "<group>"; };
+		F301467A1E46B3950015E903 /* AFAppDotNetAPIClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFAppDotNetAPIClient.m; sourceTree = "<group>"; };
 		F31B24911E458626005E0B59 /* JFNetRequestTool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JFNetRequestTool.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F31B24951E458626005E0B59 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F31B24971E458626005E0B59 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -26,6 +34,8 @@
 		F31B24A01E458626005E0B59 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F31B24A31E458626005E0B59 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F31B24A51E458626005E0B59 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F31B24AC1E4588C7005E0B59 /* JFNetRequestTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JFNetRequestTool.h; sourceTree = "<group>"; };
+		F31B24AD1E4588C7005E0B59 /* JFNetRequestTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JFNetRequestTool.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +43,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8BE5792C7DC8567426130E61 /* libPods-JFNetRequestTool.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1332A9742DAF8FA3F7E7197D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				89A588D0AC12B288A6D25363 /* Pods-JFNetRequestTool.debug.xcconfig */,
+				1609BAE88390349E428B70F8 /* Pods-JFNetRequestTool.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		F31B24881E458626005E0B59 = {
 			isa = PBXGroup;
 			children = (
 				F31B24931E458626005E0B59 /* JFNetRequestTool */,
 				F31B24921E458626005E0B59 /* Products */,
+				1332A9742DAF8FA3F7E7197D /* Pods */,
+				F61BB7F1694CE04C11B99A30 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,6 +80,7 @@
 		F31B24931E458626005E0B59 /* JFNetRequestTool */ = {
 			isa = PBXGroup;
 			children = (
+				F31B24AB1E4588A4005E0B59 /* JFNetRequest */,
 				F31B24971E458626005E0B59 /* AppDelegate.h */,
 				F31B24981E458626005E0B59 /* AppDelegate.m */,
 				F31B249A1E458626005E0B59 /* ViewController.h */,
@@ -79,6 +102,25 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		F31B24AB1E4588A4005E0B59 /* JFNetRequest */ = {
+			isa = PBXGroup;
+			children = (
+				F30146791E46B3940015E903 /* AFAppDotNetAPIClient.h */,
+				F301467A1E46B3950015E903 /* AFAppDotNetAPIClient.m */,
+				F31B24AC1E4588C7005E0B59 /* JFNetRequestTool.h */,
+				F31B24AD1E4588C7005E0B59 /* JFNetRequestTool.m */,
+			);
+			path = JFNetRequest;
+			sourceTree = "<group>";
+		};
+		F61BB7F1694CE04C11B99A30 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B7F72109135C8F91949FF4B1 /* libPods-JFNetRequestTool.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -86,9 +128,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F31B24A81E458626005E0B59 /* Build configuration list for PBXNativeTarget "JFNetRequestTool" */;
 			buildPhases = (
+				83616687D63EF1CDDDB42E6C /* [CP] Check Pods Manifest.lock */,
 				F31B248D1E458626005E0B59 /* Sources */,
 				F31B248E1E458626005E0B59 /* Frameworks */,
 				F31B248F1E458626005E0B59 /* Resources */,
+				75B32551CA4F4D63576AA2E5 /* [CP] Embed Pods Frameworks */,
+				45426301A5E762DE13DF7E9C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -145,6 +190,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		45426301A5E762DE13DF7E9C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JFNetRequestTool/Pods-JFNetRequestTool-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		75B32551CA4F4D63576AA2E5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JFNetRequestTool/Pods-JFNetRequestTool-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		83616687D63EF1CDDDB42E6C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		F31B248D1E458626005E0B59 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -153,6 +246,8 @@
 				F31B249C1E458626005E0B59 /* ViewController.m in Sources */,
 				F31B24991E458626005E0B59 /* AppDelegate.m in Sources */,
 				F31B24961E458626005E0B59 /* main.m in Sources */,
+				F301467B1E46B3950015E903 /* AFAppDotNetAPIClient.m in Sources */,
+				F31B24AE1E4588C7005E0B59 /* JFNetRequestTool.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -218,7 +313,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -260,7 +355,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -270,9 +365,11 @@
 		};
 		F31B24A91E458626005E0B59 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 89A588D0AC12B288A6D25363 /* Pods-JFNetRequestTool.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = JFNetRequestTool/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.JiangfanZhan.JFNetRequestTool;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -281,9 +378,11 @@
 		};
 		F31B24AA1E458626005E0B59 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1609BAE88390349E428B70F8 /* Pods-JFNetRequestTool.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = JFNetRequestTool/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.JiangfanZhan.JFNetRequestTool;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -309,6 +408,7 @@
 				F31B24AA1E458626005E0B59 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
